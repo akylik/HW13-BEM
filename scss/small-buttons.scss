@@ -1,0 +1,85 @@
+.small-buttons {
+   padding-top: 50px;
+
+   // .small-buttons__content
+
+   &__content {
+      width: 100%;
+      padding-top: 26px;
+   }
+
+   // .small-buttons__buttons
+
+   &__buttons {
+      width: 100%;
+      display: flex;
+      justify-content: flex-start;
+      padding-bottom: 24px;
+   }
+
+   // .small-buttons__buttons-box
+
+   &__buttons-box {
+      display: flex;
+      justify-content: space-between;
+      margin-right: 50px;
+      flex-basis: 650px;
+      flex-shrink: 0;
+   }
+
+   // .small-buttons__buttons-size
+
+   &__buttons-size {
+      width: 111px;
+      height: 36px;
+      border-radius: 5px;
+   }
+
+   // .small-buttons__tabs-text-size
+
+   &__tabs-text-size {
+      width: 86px;
+      height: 36px;
+   }
+
+   // .small-buttons__cirkle-small
+
+   &__cirkle-small {
+      width: 36px;
+      height: 36px;
+      border-radius: 50%;
+   }
+
+   // .small-buttons__cirkle-big
+
+   &__cirkle-big {
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+   }
+
+   // .small-buttons__tabs-size
+
+   &__tabs-size {
+      width: 48px;
+      height: 36px;
+   }
+
+   // .small-buttons__tabs-text2-size
+
+   &__tabs-text2-size {
+      width: 58px;
+      height: 36px;
+   }
+}
+.btns-red {
+   background: #ff3e1d;
+   color: #ffffff;
+   stroke: #ffffff;
+}
+.btns-green {
+   background: #00d200;
+}
+.tabs-transparents-icon {
+   fill: black;
+}

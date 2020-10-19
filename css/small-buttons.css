@@ -1,0 +1,80 @@
+.small-buttons {
+  padding-top: 50px;
+}
+
+.small-buttons__content {
+  width: 100%;
+  padding-top: 26px;
+}
+
+.small-buttons__buttons {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding-bottom: 24px;
+}
+
+.small-buttons__buttons-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-right: 50px;
+  -ms-flex-preferred-size: 650px;
+      flex-basis: 650px;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+}
+
+.small-buttons__buttons-size {
+  width: 111px;
+  height: 36px;
+  border-radius: 5px;
+}
+
+.small-buttons__tabs-text-size {
+  width: 86px;
+  height: 36px;
+}
+
+.small-buttons__cirkle-small {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+}
+
+.small-buttons__cirkle-big {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+}
+
+.small-buttons__tabs-size {
+  width: 48px;
+  height: 36px;
+}
+
+.small-buttons__tabs-text2-size {
+  width: 58px;
+  height: 36px;
+}
+
+.btns-red {
+  background: #ff3e1d;
+  color: #ffffff;
+  stroke: #ffffff;
+}
+
+.btns-green {
+  background: #00d200;
+}
+
+.tabs-transparents-icon {
+  fill: black;
+}

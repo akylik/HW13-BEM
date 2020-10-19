@@ -1,0 +1,120 @@
+.big-buttons {
+   // .big-buttons__content
+
+   &__content {
+      width: 100%;
+      padding-top: 26px;
+   }
+
+   // .big-buttons__buttons
+
+   &__buttons {
+      width: 100%;
+      display: flex;
+      justify-content: flex-start;
+      padding-bottom: 24px;
+   }
+
+   // .big-buttons__buttons-box
+
+   &__buttons-box {
+      display: flex;
+      justify-content: space-between;
+      margin-right: 50px;
+      flex-basis: 650px;
+      flex-shrink: 0;
+   }
+
+   // .big-buttons__buttons-size
+
+   &__buttons-size {
+      width: 144px;
+      height: 46px;
+      border-radius: 5px;
+   }
+
+   // .big-buttons__tabs-box
+
+   &__tabs-box {
+      display: inline-flex;
+   }
+
+   // .big-buttons__tabs-size
+
+   &__tabs-size {
+      width: 56px;
+      height: 48px;
+   }
+
+   // .big-buttons__tabs-text-size
+
+   &__tabs-text-size {
+      width: 134px;
+      height: 46px;
+   }
+
+   // .big-buttons__tabs-text2-size
+
+   &__tabs-text2-size {
+      width: 106px;
+      height: 46px;
+   }
+
+   // .big-buttons__tabs-box-cirkle
+
+   &__tabs-box-cirkle {
+      width: 100px;
+      display: inline-flex;
+      justify-content: space-between;
+      margin-left: 40px;
+   }
+}
+.buttons-title {
+   font-family: "Inter";
+   font-weight: 600;
+   font-size: 25px;
+   line-height: 30px;
+   color: #2c2c2c;
+}
+.btns-blue {
+   background: #18a0fb;
+   color: #ffffff;
+   stroke: #ffffff;
+}
+.btns-gray {
+   background: rgba(224, 224, 224, 0.3);
+   color: #878787;
+   stroke: #878787;
+}
+.btns-transparents {
+   border: 1px solid #e0e0e0;
+   background: #ffffff;
+   color: #2c2c2c;
+   stroke: #2c2c2c;
+}
+.btns-white {
+   background: #ffffff;
+   border: 1px solid #18a0fb;
+   color: #18a0fb;
+   stroke: #18a0fb;
+}
+.tabs-blue {
+   background: #18a0fb;
+   border-radius: 5px 0px 0px 5px;
+   fill: #ffffff;
+}
+.pad-icon {
+   padding: 0 5px;
+}
+.tabs-transparents {
+   border: 1px solid #e0e0e0;
+   background: #ffffff;
+}
+.tabs-right {
+   border-radius: 0px 5px 5px 0px;
+}
+.btns-flex {
+   display: inline-flex;
+   align-items: center;
+   justify-content: center;
+}

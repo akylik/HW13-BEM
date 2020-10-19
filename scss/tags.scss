@@ -1,0 +1,30 @@
+.tag-buttons {
+   padding-top: 50px;
+
+   // .tag-buttons__big
+
+   &__big {
+      padding-bottom: 15px;
+   }
+
+   // .tag-buttons__size-big
+
+   &__size-big {
+      width: 68px;
+      height: 28px;
+      border-radius: 5px;
+   }
+
+   // .tag-buttons__small
+
+   &__small {
+   }
+
+   // .tag-buttons__size-small
+
+   &__size-small {
+      width: 51px;
+      height: 28px;
+      border-radius: 5px;
+   }
+}
